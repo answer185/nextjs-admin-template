@@ -11,7 +11,9 @@
     "format": "prettier \"**/*.{js,jsx,ts,tsx}\" --write ."
   },
   "dependencies": {
+    "lodash.merge": "^4.6.2",
     "next": "15.3.2",
+    "next-intl": "^4.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -19,6 +21,7 @@
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/lodash.merge": "^4.6.9",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
