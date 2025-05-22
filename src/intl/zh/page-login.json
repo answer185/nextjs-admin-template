@@ -1,4 +1,10 @@
 {
-  "title": "人形机器人信息",
-  "sub-title": "这里有关于人形机器人的一切信息"
+  "login": "登录",
+  "loginDescription": "在下面输入您的电子邮件以登录您的帐户",
+  "email": "Email",
+  "password": "密码",
+  "forgetPassword": "忘记密码？",
+  "loginWithGoogle": "使用 Google 登录",
+  "noAccount": "沒有账戶？",
+  "signUp": "注册"
 }

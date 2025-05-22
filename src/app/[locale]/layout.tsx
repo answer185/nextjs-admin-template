@@ -2,6 +2,7 @@ import { routing } from "@/i18n/routing"
 import { notFound } from "next/navigation"
 import { getMessages, setRequestLocale } from "next-intl/server"
 import pick from "lodash.pick"
+import Providers from "./providers"
 
 export default async function LocaleLayout({
   children,
@@ -21,7 +22,9 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body>
-        {children}
+        <Providers locale={locale} messages={messages}>
+          {children}
+        </Providers>
       </body>
     </html>
   )
