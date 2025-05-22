@@ -5,7 +5,6 @@ export default function AdminPageLayout({
 }) {
   return (
     <>
-      <h1>Admin Page Layout</h1>
       <div>{children}</div>
     </>
   )
