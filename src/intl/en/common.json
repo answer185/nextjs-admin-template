@@ -1,4 +1,17 @@
 {
-  "about-us": "About us",
-  "home": "Home"
+  "exception": "Exception",
+  "dashboard": "Dashboard",
+  "list": "List",
+  "form": "Form",
+  "chats": "Chats",
+  "profile": "Profile",
+  "result": "Result",
+  "success": "Success",
+  "fail": "Fail",
+  "settings": "Settings",
+  "getHelp": "Get Help",
+  "search": "Search",
+  "adminTitle": "Nextjs Admin Template",
+  "more": "More",
+  "quickCreate": "Quick Create"
 }

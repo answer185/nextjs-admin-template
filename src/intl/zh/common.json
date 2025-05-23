@@ -1,4 +1,17 @@
 {
-  "about-us": "关于我们",
-  "home": "首页"
+  "exception": "异常",
+  "dashboard": "面板",
+  "list": "列表页",
+  "form": "表单页",
+  "chats": "聊天页",
+  "profile": "个人中心",
+  "result": "结果页",
+  "success": "成功页",
+  "fail": "失败页",
+  "settings": "设置",
+  "getHelp": "帮助",
+  "search": "搜索",
+  "adminTitle": "Nextjs Admin 模板",
+  "more": "更多",
+  "quickCreate": "快速创建"
 }
