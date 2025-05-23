@@ -2,7 +2,6 @@
 
 import * as React from "react"
 import {
-  IconCamera,
   IconChartBar,
   IconDashboard,
   IconDatabase,
@@ -16,10 +15,7 @@ import {
   IconSettings,
   IconUsers,
 } from "@tabler/icons-react"
-
-import { NavMain } from "@/components/nav-main"
-import { NavSecondary } from "@/components/nav-secondary"
-import { NavUser } from "@/components/nav-user"
+import { useTranslations } from "next-intl"
 import { NavGroup } from "@/components/layouts/navGroup"
 import {
   Sidebar,
@@ -30,10 +26,12 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
-import {useTranslations} from 'next-intl'
+import { NavMain } from "@/components/nav-main"
+import { NavSecondary } from "@/components/nav-secondary"
+import { NavUser } from "@/components/nav-user"
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
-  const t = useTranslations('common')
+  const t = useTranslations("common")
   const data = {
     user: {
       name: "Admin",
@@ -125,7 +123,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
               <a href="#">
                 <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">{t("adminTitle")}</span>
+                <span className="text-base font-semibold">
+                  {t("adminTitle")}
+                </span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>

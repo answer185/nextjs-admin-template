@@ -1,12 +1,9 @@
-import {
-  SidebarInset,
-  SidebarProvider,
-} from "@/components/ui/sidebar"
-import { AppSidebar } from "@/components/layouts/sidebar"
 import { SiteHeader } from "@/components/layouts/header"
+import { AppSidebar } from "@/components/layouts/sidebar"
+import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 
 export default function AdminPageLayout({
-  children
+  children,
 }: {
   children: React.ReactNode
 }) {
@@ -22,9 +19,7 @@ export default function AdminPageLayout({
       <AppSidebar variant="inset" />
       <SidebarInset>
         <SiteHeader />
-        <div className="flex flex-1 flex-col p-4 lg:p-6">
-          {children}
-        </div>
+        <div className="flex flex-1 flex-col p-4 lg:p-6">{children}</div>
       </SidebarInset>
     </SidebarProvider>
   )

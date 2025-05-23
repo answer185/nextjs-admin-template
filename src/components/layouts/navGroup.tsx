@@ -7,7 +7,7 @@ import {
   IconTrash,
   type Icon,
 } from "@tabler/icons-react"
-
+import { useTranslations } from "next-intl"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -24,17 +24,16 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar"
-import { useTranslations } from "next-intl"
 
 export function NavGroup({
   items,
-  groupName
+  groupName,
 }: {
   items: {
     name: string
     url: string
     icon: Icon
-  }[],
+  }[]
   groupName: string
 }) {
   const { isMobile } = useSidebar()

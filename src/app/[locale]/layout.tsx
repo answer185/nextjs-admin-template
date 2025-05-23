@@ -1,12 +1,12 @@
 import { routing } from "@/i18n/routing"
-import { notFound } from "next/navigation"
-import { getMessages, setRequestLocale } from "next-intl/server"
 import pick from "lodash.pick"
+import { getMessages, setRequestLocale } from "next-intl/server"
+import { notFound } from "next/navigation"
 import Providers from "./providers"
 
 export default async function LocaleLayout({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode
   params: Promise<{ locale: string }>

@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import {
@@ -9,21 +10,18 @@ import {
 } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import {useTranslations} from 'next-intl';
 
 export function LoginForm({
   className,
   ...props
 }: React.ComponentPropsWithoutRef<"div">) {
-  const t = useTranslations('page-login');
+  const t = useTranslations("page-login")
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card>
         <CardHeader>
           <CardTitle className="text-2xl">{t("login")}</CardTitle>
-          <CardDescription>
-            {t("loginDescription")}
-          </CardDescription>
+          <CardDescription>{t("loginDescription")}</CardDescription>
         </CardHeader>
         <CardContent>
           <form>

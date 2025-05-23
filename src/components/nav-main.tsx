@@ -1,7 +1,7 @@
 "use client"
 
 import { IconCirclePlusFilled, IconMail, type Icon } from "@tabler/icons-react"
-
+import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import {
   SidebarGroup,
@@ -10,7 +10,6 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
-import {useTranslations} from 'next-intl'
 
 export function NavMain({
   items,
