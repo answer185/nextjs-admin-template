@@ -1,0 +1,9 @@
+{
+  "title": "列表",
+  "desc": "使用任务列表做演示!",
+  "importTitle": "导入任务",
+  "importDesc": "从 CSV 文件快速导入任务。",
+  "uploadTip": "请上传文件",
+  "uploadCSVTip": "请上传 csv 格式",
+  "uploadedTip": "您已导入以下文件："
+}

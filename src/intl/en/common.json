@@ -13,5 +13,9 @@
   "search": "Search",
   "adminTitle": "Nextjs Admin Template",
   "more": "More",
-  "quickCreate": "Quick Create"
+  "quickCreate": "Quick Create",
+  "create": "Create",
+  "import": "Import",
+  "close": "Close",
+  "file": "File"
 }

@@ -1,0 +1,9 @@
+{
+  "title": "List",
+  "desc": "Here's a list of your tasks for demo!",
+  "importTitle": "Import Tasks",
+  "importDesc": "Import tasks quickly from a CSV file.",
+  "uploadTip": "Please upload a file",
+  "uploadCSVTip": "Please upload csv format.",
+  "uploadedTip": "You have imported the following file:"
+}

@@ -13,5 +13,9 @@
   "search": "搜索",
   "adminTitle": "Nextjs Admin 模板",
   "more": "更多",
-  "quickCreate": "快速创建"
+  "quickCreate": "快速创建",
+  "create": "创建",
+  "import": "导入",
+  "close": "关闭",
+  "file": "文件"
 }

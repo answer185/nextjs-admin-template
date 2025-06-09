@@ -1,6 +1,7 @@
 import { SiteHeader } from "@/components/layouts/header"
 import { AppSidebar } from "@/components/layouts/sidebar"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
+import { Toaster } from 'sonner'
 
 export default function AdminPageLayout({
   children,
@@ -21,6 +22,7 @@ export default function AdminPageLayout({
         <SiteHeader />
         <div className="flex flex-1 flex-col p-4 lg:p-6">{children}</div>
       </SidebarInset>
+      <Toaster position="top-center" />
     </SidebarProvider>
   )
 }
