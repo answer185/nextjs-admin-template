@@ -1,4 +1,6 @@
-const Page = () => {
-  return <div>首页开发中...</div>
+import { routing } from "@/i18n/routing"
+import { redirect } from "next/navigation"
+
+export default function Page() {
+  redirect(`${routing.defaultLocale}/login`)
 }
-export default Page
