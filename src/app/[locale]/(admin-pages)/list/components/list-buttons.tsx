@@ -16,7 +16,8 @@ export default function ListButtons() {
       >
         <span>{t("import")}</span> <IconDatabaseImport size={18} />
       </Button>
-      <Button>
+      
+      <Button onClick={() => setOpen("create")}>
         <span>{t("create")}</span> <IconPlus size={18} />
       </Button>
     </div>

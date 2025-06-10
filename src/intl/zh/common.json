@@ -15,7 +15,13 @@
   "more": "更多",
   "quickCreate": "快速创建",
   "create": "创建",
+  "update": "更新",
   "import": "导入",
   "close": "关闭",
-  "file": "文件"
+  "file": "文件",
+  "title": "标题",
+  "placeholder-title": "输入一个标题",
+  "label": "标签",
+  "saveChanges": "保存更改",
+  "submittedTitle": "您提交了以下值："
 }

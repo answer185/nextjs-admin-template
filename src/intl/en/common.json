@@ -15,7 +15,13 @@
   "more": "More",
   "quickCreate": "Quick Create",
   "create": "Create",
+  "update": "Update",
   "import": "Import",
   "close": "Close",
-  "file": "File"
+  "file": "File",
+  "title": "Title",
+  "placeholder-title": "Enter a title",
+  "label": "Label",
+  "saveChanges": "Save changes",
+  "submittedTitle": "You submitted the following values:"
 }
