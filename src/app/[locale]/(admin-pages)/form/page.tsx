@@ -1,3 +1,14 @@
-export default function Page() {
-  return <div>表单页面开发中……</div>
+"use client"
+import ContentSection from '../setting/components/content-section'
+import ComplexForm from './complex-form'
+
+export default function SettingsAccount() {
+  return (
+    <ContentSection
+      title='Complex Form'
+      desc='This is a complex form demo.'
+    >
+      <ComplexForm />
+    </ContentSection>
+  )
 }
