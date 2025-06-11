@@ -1,7 +1,9 @@
 import { routing } from "@/i18n/routing"
 import { redirect } from "next/navigation"
 
-export default function Page({ params }: { params: { locale: string } }) {
-  const locale = params.locale || routing.defaultLocale;
+type PageProps = { params: Promise<{ locale: string }> }
+export default async function Page({ params }: PageProps) {
+  const pageParams = await params
+  const locale = pageParams.locale || routing.defaultLocale;
   redirect(`/${locale}/setting/account`)
 }
