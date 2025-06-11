@@ -115,11 +115,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         url: "/help",
         icon: IconHelp,
       },
-      {
-        title: t("search"),
-        url: "/search",
-        icon: IconSearch,
-      },
     ],
   }
   return (

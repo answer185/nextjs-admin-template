@@ -1,3 +1,7 @@
-export default function Page() {
-  return <div>设置页面开发中……</div>
+import { routing } from "@/i18n/routing"
+import { redirect } from "next/navigation"
+
+export default function Page({ params }: { params: { locale: string } }) {
+  const locale = params.locale || routing.defaultLocale;
+  redirect(`/${locale}/setting/account`)
 }

@@ -4,6 +4,7 @@ import { type AbstractIntlMessages } from "next-intl"
 import { TooltipProvider } from "@/components/ui/tooltip"
 import I18nProvider from "@/components/I18nProvider"
 import ThemeProvider from "@/components/ThemeProvider"
+import { FontProvider } from "@/context/font-context"
 
 export default function Providers({
   children,
@@ -17,7 +18,9 @@ export default function Providers({
   return (
     <I18nProvider locale={locale} messages={messages}>
       <ThemeProvider>
-        <TooltipProvider>{children}</TooltipProvider>
+        <FontProvider>
+          <TooltipProvider>{children}</TooltipProvider>
+        </FontProvider>
       </ThemeProvider>
     </I18nProvider>
   )
