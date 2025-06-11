@@ -23,7 +23,7 @@ import { Separator } from '@/components/ui/separator'
 import { NewChat } from './components/new-chat'
 import { type ChatUser, type Convo } from './data/chat-types'
 // Fake Data
-import { conversations } from './data/convo.json'
+import data from './data/convo.json'
 
 export default function Chats() {
   const [search, setSearch] = useState('')
@@ -34,6 +34,7 @@ export default function Chats() {
   const [createConversationDialogOpened, setCreateConversationDialog] =
     useState(false)
 
+  const { conversations } = data;
   // Filtered data based on the search query
   const filteredChatList = conversations.filter(({ fullName }) =>
     fullName.toLowerCase().includes(search.trim().toLowerCase())
