@@ -1,0 +1,12 @@
+{
+    "success": "提交成功",
+    "successDesc": "提交结果页用于反馈一系列操作任务的处理结果，<br></br>如果仅是简单操作，使用 Message 全局提示反馈即可。<br></br>本页面可承载较复杂的内容。",
+    "fail": "提交失败",
+    "failDesc": "请核对并修改以下信息后，再重新提交。<br></br>如果您有任何疑问，请联系管理员。",
+    "back": "返回首页",
+    "backToModify": "返回修改",
+    "backToProject": "查看项目",
+    "failReason1": "您的账户已被冻结",
+    "failReason2": "您的账户还未绑定手机号"
+
+}

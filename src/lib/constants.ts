@@ -5,4 +5,5 @@ export const INTL_MODULES = [
   "page-login",
   "page-list",
   "page-error",
+  "page-result",
 ]

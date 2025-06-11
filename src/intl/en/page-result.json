@@ -1,0 +1,11 @@
+{
+    "success": "Success",
+    "successDesc": "The submission result page is used to feedback the processing result of a series of operation tasks, <br></br>if it is a simple operation, use the Message global prompt feedback can be. <br></br>This page can carry more complex content.",
+    "fail": "Submission failed",
+    "failDesc": "Please check and modify the following information, and then submit again. <br></br>If you have any questions, please contact the administrator.",
+    "back": "Back to Home",
+    "backToModify": "Back to Modify",
+    "backToProject": "View Project",
+    "failReason1": "Your account has been frozen",
+    "failReason2": "Your account has not been bound to a phone number"
+}
