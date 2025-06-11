@@ -57,7 +57,10 @@ export default function Chats() {
     {}
   )
 
-  const users = conversations.map(({ messages, ...user }) => user)
+  const users = conversations.map(({ messages, ...user }) => {
+    void messages
+    return user
+  })
 
   return (
     <>
