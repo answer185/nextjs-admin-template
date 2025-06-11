@@ -79,18 +79,28 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     ],
     navErrors: [
       {
-        name: "403",
+        name: t("unauthorized"),
+        url: "/e/401",
+        icon: IconDatabase,
+      },
+      {
+        name: t("forbidden"),
         url: "/e/403",
         icon: IconDatabase,
       },
       {
-        name: "404",
+        name: t("notFound"),
         url: "/e/404",
         icon: IconReport,
       },
       {
-        name: "500",
+        name: t("internalError"),
         url: "/e/500",
+        icon: IconFileWord,
+      },
+      {
+        name: t("maintenance"),
+        url: "/e/503",
         icon: IconFileWord,
       },
     ],

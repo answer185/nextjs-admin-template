@@ -3,15 +3,15 @@ import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { useTranslations } from 'next-intl'
 
-export default function ForbiddenError() {
+export default function UnauthorisedError() {
   const router = useRouter()
   const t = useTranslations("page-error")
   return (
     <div className='m-auto flex flex-col items-center justify-center'>
-      <h1 className='text-[7rem] leading-tight font-bold'>403</h1>
-      <span className='font-medium'>{t("forbidden")}</span>
+      <h1 className='text-[7rem] leading-tight font-bold'>401</h1>
+      <span className='font-medium'>{t("unauthorized")}</span>
       <p className='text-muted-foreground text-center'>
-        {t.rich("forbiddenDesc", {
+        {t.rich("unauthorizedDesc", {
           br: () => <br />,
         })}
       </p>

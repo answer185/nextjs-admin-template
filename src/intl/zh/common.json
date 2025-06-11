@@ -23,5 +23,10 @@
   "placeholder-title": "输入一个标题",
   "label": "标签",
   "saveChanges": "保存更改",
-  "submittedTitle": "您提交了以下值："
+  "submittedTitle": "您提交了以下值：",
+  "unauthorized": "未授权",
+  "forbidden": "禁止",
+  "notFound": "未找到",
+  "internalError": "内部服务器错误",
+  "maintenance": "系统维护"
 }

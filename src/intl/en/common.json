@@ -23,5 +23,10 @@
   "placeholder-title": "Enter a title",
   "label": "Label",
   "saveChanges": "Save changes",
-  "submittedTitle": "You submitted the following values:"
+  "submittedTitle": "You submitted the following values:",
+  "unauthorized": "Unauthorized",
+  "forbidden": "Forbidden",
+  "notFound": "Not Found",
+  "internalError": "Internal Server Error",
+  "maintenance": "Maintenance Error"
 }

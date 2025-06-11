@@ -4,4 +4,5 @@ export const INTL_MODULES = [
   "common",
   "page-login",
   "page-list",
+  "page-error",
 ]
